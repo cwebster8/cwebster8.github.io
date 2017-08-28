@@ -1,0 +1,265 @@
+@charset "UTF-8";
+/* CSS Document */
+
+@font-face {
+    font-family: 'SilkscreenNormal';
+    src: url('slkscr-webfont.eot');
+    src: url('slkscr-webfont.eot?#iefix') format('embedded-opentype'),
+         url('slkscr-webfont.woff') format('woff'),
+         url('slkscr-webfont.ttf') format('truetype'),
+         url('slkscr-webfont.svg#SilkscreenNormal') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'SilkscreenBold';
+    src: url('slkscrb-webfont.eot');
+    src: url('slkscrb-webfont.eot?#iefix') format('embedded-opentype'),
+         url('slkscrb-webfont.woff') format('woff'),
+         url('slkscrb-webfont.ttf') format('truetype'),
+         url('slkscrb-webfont.svg#SilkscreenBold') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'SilkscreenExpandedNormal';
+    src: url('slkscre-webfont.eot');
+    src: url('slkscre-webfont.eot?#iefix') format('embedded-opentype'),
+         url('slkscre-webfont.woff') format('woff'),
+         url('slkscre-webfont.ttf') format('truetype'),
+         url('slkscre-webfont.svg#SilkscreenExpandedNormal') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'SilkscreenExpandedBold';
+    src: url('slkscreb-webfont.eot');
+    src: url('slkscreb-webfont.eot?#iefix') format('embedded-opentype'),
+         url('slkscreb-webfont.woff') format('woff'),
+         url('slkscreb-webfont.ttf') format('truetype'),
+         url('slkscreb-webfont.svg#SilkscreenExpandedBold') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+
+
+@font-face {
+    font-family: 'transportmedium';
+    src: url('transportm-webfont.eot');
+    src: url('transportm-webfont.eot?#iefix') format('embedded-opentype'),
+         url('transportm-webfont.woff2') format('woff2'),
+         url('transportm-webfont.woff') format('woff'),
+         url('transportm-webfont.ttf') format('truetype'),
+         url('transportm-webfont.svg#transportmedium') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+body {
+    font-size: 1.5em;
+    font-family: 'SilkscreenNormal';
+    font-weight: normal;
+    font-style: normal;
+    color: black;
+    background-color: white;
+    padding: 0 0 0 0;
+    width: 100%;
+    margin: 0 auto;
+    overflow: scroll;
+}
+
+p {
+	font-family: Arial;
+  font-size: 100%;
+	font-weight: normal;
+	font-style: normal;
+/* 	font-size: 1em; */
+}
+
+h1 {
+	font-size: 150%;
+	font-family: 'SilkscreenNormal';
+	font-weight: normal;
+	font-style: normal;
+	opacity: 1;
+}
+
+h2 {
+	font-size: 125%;
+	font-family: 'SilkscreenNormal';
+	font-weight: normal;
+	font-style: normal;
+	opacity: 1;
+}
+
+a {
+	color: rgba(255,150,150, .9);
+	text-decoration: none;
+}
+
+img { display:table-cell;
+  vertical-align:middle;
+  width: 100%;
+  height: auto;
+}
+
+/*a:visited {
+	color: rgb(173, 66, 244);
+}
+*/
+.films li {
+	display: inline;
+}
+
+
+
+/*#image {
+   height: auto;
+   position: absolute;
+   left:0;
+   top:0;
+   width:100%;
+   height:100%;
+   opacity: 1;
+}*/
+
+/*.background-image { 			
+	z-index: -1;
+	width:100%;
+	height:100%;
+					}*/
+
+.films {
+   position: relative; 
+   margin: 0 auto;
+   /*top: 0%; 
+   left: 0%; */
+   width: 100%;
+    -webkit-opacity: 1;
+  -moz-opacity: 1;
+  opacity: 1;
+  -webkit-transition: all 1s ease;
+  -moz-transition: all 1s ease;
+  -ms-transition: all 1s ease;
+  -o-transition: all 1s ease;
+  transition: all 1s ease;
+  color: black;
+}
+
+
+/* 
+
+.films a {
+font-size: 1em;
+}
+ */
+
+/* 
+.films .about .upcoming a:hover {
+	-webkit-opacity: 1;
+  	-moz-opacity: 1;
+  	opacity: 1;
+  	-webkit-transition: all 1s ease;
+  	-moz-transition: all 1s ease;
+  	-ms-transition: all 1s ease;
+  	-o-transition: all 1s ease;
+  	transition: all 1s ease;
+	font-size: 300%;
+}  
+ */
+
+#name {
+  position: relative; 
+   margin: 0 auto;
+  padding-left:15px;
+}
+
+/*#bioimage {
+  width: 408px;
+  height: 306px;
+  background-image: url('images/darkness-bio.jpg');
+}
+
+#bioimage:hover {
+  width: 408px;
+  height: 306px;
+  background-image: url('images/biopic3.jpg'), url('images/darkness-bio.jpg') ;
+}*/
+
+.screening-list {
+  display:inline-block;
+}
+
+
+
+
+a:hover {
+  -webkit-opacity: 0.25;
+  -moz-opacity: 0.25;
+  opacity: 0.25;
+  -webkit-transition: all 1s ease;
+  -moz-transition: all 1s ease;
+  -ms-transition: all 1s ease;
+  -o-transition: all 1s ease;
+  transition: all 1s ease;
+  	color: #d3d3d3;
+	opacity: 1;
+	/*font-size: 200%;*/
+}
+
+
+.modal {
+    font-family: Arial;
+    position:relative;
+    margin: 0 auto;
+    top: 10%;
+    height: 70%;
+    width:65%;
+    padding: 1%;
+    font-size: 90%;
+    color: black;
+		}
+
+.modal a {
+
+	opacity: 1;
+	color: rgba(255,150,150, .9);
+/*  color: #d3d3d3;*/
+  opacity: 0.9;
+}
+
+
+.modal h2 {
+text-decoration: underline;
+
+color: rgba(255,0,0,0.95);
+
+}
+
+.modal img {
+  
+  margin: 10px auto;
+  width: 100%;
+  height: auto;
+  border-radius: 5px;
+}
+
+/*
+.modal.back {
+	color: rgba(255, 255, 255, 1);
+    background: none;
+    top: 85%;
+    cursor: pointer;
+    overflow: none;
+}
+*/
+
